@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contact-form">
+    <div class="first-container">
+      <div class="info-container">
+        <div>
+          <h2>Get in touch</h2>
+          <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+        </div>
+        <div>
+          <h2>Let's Talk</h2>
+          <p>Phone: 123-456-7890</p>
+        </div>
+        <div>
+          <h2>Visit Us</h2>
+          <p>1234 Main Street</p>
+          <p>City, State 12345</p>
+        </div>  
+      </div>
+    </div>
+    <div class="second-container">
+      <h2>Send Us a Message</h2>
+      <form>
+        <div class="form-group">
+          <label 
+          for="name-input">Tell Us Your Name* 
+          </label>
+          <input input id="name-input" type="text" name="name" placeholder="Your First Name" required>
+          <input input id="name-input" type="text" name="name" placeholder="Your Last Name" required>
+        </div>
+        <div class="form-group">
+          <label 
+          for="email-input">Tell Us Your Email* 
+          </label>
+          <input input id="email-input" type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label 
+          for="message-input">Tell Us Your Message* 
+          </label>
+          <textarea id="message-input" name="message" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
